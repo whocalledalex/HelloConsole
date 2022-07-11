@@ -18,10 +18,10 @@ int a3 = 9;
 int b3 = 52;
 int c3 = 3;
 
-int max1 = Max(a1, b1, c1);
-int max2 = Max(a2, b2, c2);
-int max3 = Max(a3, b3, c3);
+// int max1 = Max(a1, b1, c1);
+// int max2 = Max(a2, b2, c2);
+// int max3 = Max(a3, b3, c3);
 
-int result = Max(max1, max2, max3);
+int result = Max(Max(a1, b1, c1), Max(a2, b2, c2), Max(a3, b3, c3));
 
 Console.WriteLine(result);
